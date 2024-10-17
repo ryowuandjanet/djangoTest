@@ -29,7 +29,8 @@ else:
     DEBUG = False
 
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ['*','djangotest-fpoe.onrender.com']
+CSRF_TRUSTED_ORIGINS = ['https://djangotest-fpoe.onrender.com']
 
 
 # Application definition
